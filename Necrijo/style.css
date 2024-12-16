@@ -9,6 +9,7 @@ body{
     list-style: none;
     justify-content: space-between;
 }
+
 .caja1{
     display:flex;
     justify-content: space-between;
@@ -16,13 +17,6 @@ body{
     
 }
 .caja2{
-    display: flex;
-    padding:10px;
-    color:rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: large;
-}
-.caja3{
     display:flex;
     
 }
@@ -34,4 +28,74 @@ body{
     color: white;
     font-weight: bold;
     border-radius: 30px;
+}
+.buscador{
+    display: flex;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+    border-color: beige;
+    width: 300px;
+    height: 30px;
+    font-size: medium;
+    
+}
+
+.barra2{
+    display:flex;
+    padding: 10px;
+    background-color: transparent;
+    border-color:transparent;
+    
+}
+.Cabecera{
+    display: flex;
+    margin:auto;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    
+    
+}
+.barra2{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.desplegable{
+    display: flex;
+    background-color: transparent;
+    color:white;
+    font-weight: bold;
+    padding:10px;
+    border-color: beige;
+    border-radius:30px;
+}
+.Header{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    display: flex;
+    color:transparent
+}
+
+.cuadroSesion{
+    display: flex;
+    
+    background-color: rgba(0, 0, 0, 0.729);
+    padding-bottom: 50px;
+    margin-left: 425px;
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 60px;
+    
+
+
 }
