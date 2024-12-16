@@ -5,24 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ropa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
+    <header class="Header" >
+        <button class="barra2">
+            <a href="index.html">
+                <h1 class="Cabecera" style="color:pink;"> Ne </h1>
+                <h1 class="Cabecera" style="color: rgb(5, 134, 129);"> cri </h1>
+                <h1 class="Cabecera" style="color: rgb(255, 185, 55);"> Jo </h1>
+            </a>
+        </button>
+    </header>
     <nav class="barra">
-        <div class="caja1"> 
-            <button class="botonNav"> = </button>
+        <div class="caja1">
+            <label  for="desplegable"> 
+                <select class="desplegable" name="desplegable" id="opciones">
+                    <option value="opcion inicial"> = </option>
+                    <option value="niños"> Niños </option>
+                    <option value="adulto"> Adulto </option>
+                    <option value="ofertas"> Ofertas </option>
+                    <option value="campanas"> Campañas </option>
+                </select>
+            </label>
+        
             <button class="botonNav"> MUJER </button>
             <button class="botonNav"> HOMBRE </button>
             <button class="botonNav"> NIÑOS </button>
         </div>
+   
         <div class="caja2">
-            <li>necrijo1234 </li>
+            <input class="buscador"  placeholder=" Buscar..." Search />  </input>
+            <a href="usuario.html">
+                <button class="botonNav"> <i class="fas fa-regular fa-user"></i> </button>
+            </a>
+            <button class="botonNav" >
+                <ion-icon name="cart"></ion-icon>
+            </button>
+            
         </div>
-        <div class="caja3">
-            <button class="botonNav"> lupa </button>
-            <button class="botonNav"> Usuario </button>
-            <button class="botonNav"> Cesta </button>
-        </div>
-        <input Search />
-    </nav>
 </body>
 </html>
