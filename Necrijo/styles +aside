@@ -87,7 +87,7 @@ a{
     
     background-color: rgba(0, 0, 0, 0.729);
     padding-bottom: 50px;
-    margin-left: 425px;
+    margin: auto;
     width: 600px;
     height: 400px;
     align-items: center;
@@ -95,6 +95,23 @@ a{
     flex-direction: column;
     justify-content: space-around;
     padding: 60px;
+
+.botonsesion1{
+    color:white;
+    background-color:black;
+    border-radius: 30px;
+    border-color: beige;
+    font-weight: bold;
+    display: flex;  
+}
+.botonsesion2{
+    color:black;
+    background-color:rgb(228, 221, 221);
+    border-radius: 30px;
+    border-color: beige;
+    font-weight: bold;
+    display: flex;
+}
 
 }
 /*Aside*/ 
